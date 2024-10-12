@@ -13,8 +13,7 @@ public:
                 }
             }
         }
-        return {};
-        
+        return {}; 
     }
 };
 
@@ -31,6 +30,5 @@ int main(){
         cout << "No solution found" << endl;
     }
 
-    return 0;    
-
+    return 0;
 }
