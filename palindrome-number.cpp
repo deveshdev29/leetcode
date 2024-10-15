@@ -22,7 +22,13 @@ public:
 int main(){
      
     Solution sol;
-    int x = 121;
+    int x;
+    cin >> x;
 
-    cout << sol.isPalindrome(x);
+    if(sol.isPalindrome(x) == 1){
+        cout << "Palindrome" << endl;
+    }else{
+        cout << "Not Palindrome" << endl;
+    }
+    return 0;
 }
